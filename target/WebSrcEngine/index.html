@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Web Search Engine</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link media="all" type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.6/themes/smoothness/jquery-ui.css" rel="stylesheet"/>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.6/jquery-ui.min.js"></script>
+  <script src = "js/webSearchScript.js"></script>
+  
+  <style>
+
+    #searchBar{
+      margin-left: 30px;
+background-color: #379683;
+      margin-right: 30px;
+      margin-top: 100px;
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+    #solutionBar{
+      display: none;
+background-color: #8EE4AF;
+      margin-top: -25px;
+      padding-top: 0px;
+      margin-left: 40px;
+      margin-right: 40px;
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+    #searchButton{
+      margin-top: 10px;
+background-color: #57BC90;
+      text-align: center;
+      margin-left: 480px;
+    }
+    #label{
+      text-align: center;
+      margin-left: 340px;
+      font-size: 30px;
+    }
+    img{
+       margin-left: 220px;
+      
+    }
+    #usr{
+      width: 800px;
+      margin-left: 100px;
+    }
+    th,td{
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container-fluid" style="background:transparent;">
+    <div class="jumbotron" id ="searchBar">
+      <div class="form-group">
+      <img src="img/search-engine.jpg" alt="search engine" height="300" width="600">
+       <!--   <label id = "label" >WEB SEARCH ENGINE</label> -->
+        <input type="text" class="form-control" id="usr">
+        <button type="button" class="btn btn-primary" id="searchButton" onclick="getTopUrls();" >Search</button>
+      </div>
+    </div>
+    <div class="jumbotron" id ="solutionBar">
+    	<div id = "test">
+    	</div>
+    </div>
+  </div>
+</body>
+</html>

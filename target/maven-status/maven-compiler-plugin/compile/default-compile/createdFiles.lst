@@ -1,0 +1,8 @@
+com\search\resources\QuickSelectAlgo.class
+com\search\webcrawler\WebCrawlerNode.class
+com\search\util\SearchEngineException.class
+com\search\resources\InvertedIndex.class
+com\search\resources\Tries.class
+com\search\servlet\WebController.class
+com\search\webcrawler\WebCrawlerManager.class
+com\search\webcrawler\WebCrawler.class
